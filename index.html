@@ -130,6 +130,9 @@ summary .c::after{content:"+";font-family:var(--en);font-size:18px;color:var(--t
 details[open] summary .c::after{content:"–"}
 details .tw{margin-top:0;border-top:none;padding-bottom:16px}
 
+.ah{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.oa{appearance:none;border:1px solid var(--border);background:var(--surface);color:var(--text-2);font:inherit;font-size:13px;padding:5px 12px;border-radius:4px;cursor:pointer;white-space:nowrap}
+.oa:hover{color:var(--text)}
 footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--border);font-size:12.5px;color:var(--text-3);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
 @media (max-width:760px){
@@ -156,23 +159,23 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--border);font-
     <p class="eyebrow num">인사팀장 업무 보고 · 2026.10.12 – 11.11</p>
     <h1>입사 첫 한 달 업무 보고</h1>
     <dl class="meta">
-      <div><dt>보고 대상</dt><dd>최다예 대표이사 · 최진석 COO</dd></div>
+      <div><dt>보고 대상</dt><dd>최다예 대표이사</dd></div>
       <div><dt>작성</dt><dd>인사팀장 유하람</dd></div>
       <div><dt>작성일</dt><dd class="num">2026.11.11</dd></div>
     </dl>
-    <span class="conf">대외비 · 경영진 한정</span>
+    <span class="conf">대외비 · 대표이사 보고용</span>
   </header>
 
   <nav class="idx" aria-label="목차">
     <ol>
       <li><a href="#preface">보고에 앞서</a></li>
+      <li><a href="#appendix">한 달 실행 내역</a></li>
       <li><a href="#summary">요약</a></li>
       <li><a href="#flow">한 달의 흐름</a></li>
       <li><a href="#work">수행 업무</a></li>
       <li><a href="#opinion">인사팀장 의견</a></li>
       <li><a href="#focus">강화할 업무</a></li>
       <li><a href="#way">운영 방식</a></li>
-      <li><a href="#appendix">붙임</a></li>
     </ol>
   </nav>
 
@@ -184,118 +187,9 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--border);font-
     <p class="sign">인사팀장 유하람 드림</p>
   </div>
 
-  <section id="summary">
-    <h2>요약</h2>
-    <div class="figs">
-      <div class="fig"><div class="v">3<small>건</small></div><div class="l">지침 2종 제정 ·<br>취업규칙 정비</div></div>
-      <div class="fig"><div class="v">8<small>종</small></div><div class="l">엑셀 관리대장·<br>양식 신규 제작</div></div>
-      <div class="fig"><div class="v">284<small>건</small></div><div class="l">1~10월 급여<br>플렉스 이관 검증</div></div>
-      <div class="fig"><div class="v">9<small>개</small></div><div class="l">인사팀 웹사이트<br>운영 메뉴</div></div>
-      <div class="fig"><div class="v">7<small>건</small></div><div class="l">문서번호 부여<br>인사팀 공지</div></div>
-      <div class="fig"><div class="v">22<small>명</small></div><div class="l">구성원 1on1<br>면담 완료</div></div>
-    </div>
-    <ul class="sum">
-      <li><b>한 일</b><span>규정·데이터·시스템·소통 채널을 세우고, 그 위에서 조직 진단을 진행했습니다. 11/10 중간보고는 이 중 진단 부분입니다.</span></li>
-      <li><b>아쉬운 점</b><span>보고를 한 번에 몰아서 드렸고, 기반 작업은 공유하지 못했습니다.</span></li>
-      <li><b>강화할 업무</b><span>채용과 입사 후 90일 정착 관리를 가장 먼저 강화하겠습니다.</span></li>
-      <li><b>운영 방식</b><span>주 1회 미팅에서 이슈 · 판단 · 결정 필요 사항 · 실행 일정과 함께 <b>이번 주 완료한 일</b>을 짧게 공유하겠습니다.</span></li>
-    </ul>
-  </section>
-
-  <section id="flow">
-    <h2>한 달의 흐름</h2>
-    <p class="lead">첫 2주는 흩어진 기존 자료를 모으고 플렉스 설정을 바로잡는 데 대부분을 썼습니다. 진단·보고는 그 위에서 3주차부터 본격적으로 진행했습니다.</p>
-    <div class="weeks">
-      <div class="band">기존 자료 취합 · 플렉스 정비 (약 1~2주)</div>
-      <div class="band2">제도 정비 · 사내 채널 구축 · 1on1 진행</div>
-      <div class="wk"><div class="d">10.12 – 10.16</div><div class="w">1주차</div>
-        <ul><li class="m">입사, 인계 자료 파악</li><li>연차관리대장</li><li>시용사원 평가표</li><li>출산·육아휴직 통합 신청서</li></ul></div>
-      <div class="wk"><div class="d">10.19 – 10.23</div><div class="w">2주차</div>
-        <ul><li>처우협의 관리대장 · 오퍼</li><li>법인카드 절차 미팅</li><li class="m">1on1 면담 시작</li><li>공지 템플릿 확정</li><li>퇴직연금 비교견적</li></ul></div>
-      <div class="wk"><div class="d">10.26 – 10.30</div><div class="w">3주차</div>
-        <ul><li>연봉 평가 제도</li><li class="m">인사팀 웹사이트 첫 배포</li><li>근태·수당 지침 초안</li><li>경영진 보고 페이지</li></ul></div>
-      <div class="wk"><div class="d">11.02 – 11.06</div><div class="w">4주차</div>
-        <ul><li>신규 입사자 2명 온보딩</li><li>복리후생 · 근무 가이드 메뉴</li><li>공지 005 · 006, 사무실 이전 공지</li><li class="m">취업규칙 검토, 사이트 로그인 잠금</li></ul></div>
-      <div class="wk"><div class="d">11.09 – 11.11</div><div class="w">5주차</div>
-        <ul><li>급여 284건 이관 검증</li><li>1on1 22명 완료</li><li>지침·취업규칙 확정</li><li class="m">11/10 중간보고</li></ul></div>
-    </div>
-    <p class="note">주차 구분은 작업 기록을 기준으로 정리했습니다.</p>
-  </section>
-
-  <section id="work">
-    <h2><span class="k">01</span>수행 업무</h2>
-    <p class="lead">한 달간의 일은 여섯 영역입니다. 진단·보고를 제외한 다섯 영역은 지금까지 별도로 보고드리지 않은 내용입니다.</p>
-    <div class="tw"><table>
-      <thead><tr><th>영역</th><th>핵심 산출물</th><th>회사에 주는 효과</th></tr></thead>
-      <tbody>
-        <tr><td class="nw">규정·제도</td><td>근태관리지침·수당운영지침 제정, 취업규칙 검토·수정(11/26 시행), 팀 업무추진비(12/1), 복리후생 기준, 퇴직연금 도입 준비</td><td>연장근로수당·포괄임금 등 임금체불 리스크 차단</td></tr>
-        <tr><td class="nw">데이터·시스템</td><td>엑셀 관리대장·양식 8종, 플렉스 재설정, 1~10월 급여 284건 이관 검증</td><td>인사 숫자의 단일 원천 확보</td></tr>
-        <tr><td class="nw">사내 인프라</td><td>인사팀 웹사이트(메뉴 9개, 회사 메일 로그인), 경영진 대시보드, 슬랙 온보딩 워크플로</td><td>기준을 한 곳에서 확인, 문의·혼선 감소</td></tr>
-        <tr><td class="nw">공지·운영</td><td>공지 표준 템플릿, 인사팀 공지 7건, 오프보딩·지출 절차, 사무실 이전</td><td>구두 기준을 문서로 고지·증빙</td></tr>
-        <tr><td class="nw">채용·온보딩</td><td>입사 확정 5명 처우 산정, 시용 평가 운영, 입사 서류 절차 개선</td><td>채용 업무 이관 기반</td></tr>
-        <tr><td class="nw">진단·보고</td><td>퇴사자 분석(12개월 26명), 1on1 22명, 30일차 중간보고</td><td>이탈 원인 파악</td></tr>
-      </tbody>
-    </table></div>
-  </section>
-
-  <section id="opinion">
-    <h2><span class="k">02</span>인사팀장 의견</h2>
-    <div class="op">
-      <div class="h">가장 잘했다고<br>생각하는 점</div>
-      <div><p>문제를 보여드리는 데서 멈추지 않고, <b>고칠 수 있는 수단을 함께 만든 점</b>입니다. 퇴사 데이터와 면담을 연결해 이탈 원인을 구조로 보여드렸고, 동시에 법적 리스크가 큰 근태·수당 기준은 11/26 시행으로 먼저 정리했습니다.</p>
-      <p>진단이 문제를 보여주었다면, 지침·관리대장·웹사이트는 그 문제를 고칠 도구입니다.</p></div>
-    </div>
-    <div class="op">
-      <div class="h">가장 아쉬운 점</div>
-      <ol>
-        <li><b>한 번에 몰아서 보고한 점.</b> 한 달치 진단을 하루에 드려 소화와 판단에 부담을 드렸습니다. 중간중간 나눠 공유했어야 했습니다.</li>
-        <li><b>추천안이 선명하지 않았던 점.</b> 선택지를 고르게 보여드리는 데 집중해, 제가 무엇을 가장 먼저 해야 한다고 보는지는 약하게 전달됐습니다.</li>
-        <li><b>기반 작업을 보고하지 않은 점.</b> 지침·취업규칙·플렉스·관리대장·웹사이트 작업을 결과물로 공유드린 적이 없어, 한 달의 일이 진단 보고서 하나로만 보였을 것입니다.</li>
-      </ol>
-    </div>
-    <div class="op">
-      <div class="h">어려웠던 점</div>
-      <ul>
-        <li>플렉스 설정(연차 자동소멸, 급여 항목 등)과 기존 자료가 실제 운영과 맞지 않아, 분석 전에 데이터를 바로잡는 데 <b>1~2주</b>가 필요했습니다.</li>
-        <li>인계 원칙은 "30일 안에는 제도 설계를 하지 않는다"였지만, 11/26 사무실 이전과 근태 관행의 법적 리스크 때문에 근태·수당 기준은 미룰 수 없었습니다. 새 제도를 설계했다기보다 리스크를 먼저 막은 것입니다.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="focus">
-    <h2><span class="k">03</span>가장 강화할 인사업무</h2>
-    <div class="rec"><b>최종 추천: 채용과 입사 후 90일 정착 관리</b><br>최근 12개월 퇴사 26명 중 10명이 입사 90일 안에 나갔고, 같은 기간 입사자 33명 중 16명이 이미 떠났습니다. 채용 비용이 가장 크게 새고 있는 곳입니다.</div>
-    <div class="tw"><table>
-      <thead><tr><th>판단</th><th>영역</th><th>이유</th></tr></thead>
-      <tbody>
-        <tr><td><span class="chip c-ok">지금 수용</span></td><td class="nw">채용·온보딩·수습 관리</td><td>이탈이 가장 많은 구간이고, 비용 없이 인사팀이 바로 실행할 수 있음</td></tr>
-        <tr><td><span class="chip c-warn">보류</span></td><td class="nw">평가·보상 제도 설계</td><td>필요하지만 퇴사율이 안정되기 전 도입하면 역효과 우려. 2027년 상반기 착수 제안</td></tr>
-        <tr><td><span class="chip c-mute">지금은 하지 않음</span></td><td class="nw">신규 복지 확대</td><td>구성원이 원하는 것은 새 혜택보다 이미 말한 것의 확정. 확정 공지만 먼저 진행</td></tr>
-      </tbody>
-    </table></div>
-    <p class="lead">11/16 입사자부터 90일 정착 관리(입사 전 준비, 수습 목표 서면 안내, 1주·1개월·2개월 체크인)를 시작하고, 3개월 뒤 같은 기준으로 정착률을 다시 보고드리겠습니다.</p>
-  </section>
-
-  <section id="way">
-    <h2><span class="k">04</span>운영 방식 제안</h2>
-    <p class="lead">대표님 피드백에 따라 주 1회 대면 미팅으로 나눠 논의하겠습니다. 매주 아래 다섯 가지를 1장으로 정리하겠습니다.</p>
-    <ol class="steps">
-      <li>이번 주 새로 확인된 이슈 (3건 이내)</li>
-      <li>인사팀장 판단: 안건별 수용·보류·미시행과 이유, 최종 추천 1개</li>
-      <li>경영진 결정이 필요한 사항</li>
-      <li>결정 후 실행 내용과 일정</li>
-      <li class="new">이번 주 완료한 일 (한 줄씩)</li>
-    </ol>
-    <h3>함께 정렬이 필요한 사항</h3>
-    <div class="tw"><table><tbody>
-      <tr><td class="nw">결정 권한의 범위</td><td>인사팀장이 단독으로 결정하고 사후 공유할 일과, 사전 승인이 필요한 일의 경계를 정하면 실행 속도가 빨라집니다.</td></tr>
-      <tr><td class="nw">주간 미팅 일정</td><td>요일과 시간을 고정해 주시면 안건을 그에 맞춰 준비하겠습니다.</td></tr>
-    </tbody></table></div>
-  </section>
-
   <section id="appendix">
-    <h2>붙임 · 한 달 실행 내역</h2>
-    <p class="lead">영역별 상세 산출물입니다. 항목을 눌러 펼쳐 보실 수 있습니다.</p>
+    <h2>한 달 실행 내역</h2>
+    <div class="ah"><p class="lead">10/12부터 11/11까지 인사팀장으로서 수행한 일을 영역별로 정리했습니다. 각 영역을 눌러 상세 산출물을 보실 수 있습니다.</p><button type="button" id="openAll" class="oa">모두 펼치기</button></div>
 
     <details>
       <summary>1) 규정·제도<span class="c">9건</span></summary>
@@ -410,9 +304,120 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--border);font-
     </details>
   </section>
 
+  <section id="summary">
+    <h2>요약</h2>
+    <div class="figs">
+      <div class="fig"><div class="v">3<small>건</small></div><div class="l">지침 2종 제정 ·<br>취업규칙 정비</div></div>
+      <div class="fig"><div class="v">8<small>종</small></div><div class="l">엑셀 관리대장·<br>양식 신규 제작</div></div>
+      <div class="fig"><div class="v">284<small>건</small></div><div class="l">1~10월 급여<br>플렉스 이관 검증</div></div>
+      <div class="fig"><div class="v">9<small>개</small></div><div class="l">인사팀 웹사이트<br>운영 메뉴</div></div>
+      <div class="fig"><div class="v">7<small>건</small></div><div class="l">문서번호 부여<br>인사팀 공지</div></div>
+      <div class="fig"><div class="v">22<small>명</small></div><div class="l">구성원 1on1<br>면담 완료</div></div>
+    </div>
+    <ul class="sum">
+      <li><b>한 일</b><span>규정·데이터·시스템·소통 채널을 세우고, 그 위에서 조직 진단을 진행했습니다. 11/10 중간보고는 이 중 진단 부분입니다.</span></li>
+      <li><b>아쉬운 점</b><span>보고를 한 번에 몰아서 드렸고, 기반 작업은 공유하지 못했습니다.</span></li>
+      <li><b>강화할 업무</b><span>채용과 입사 후 90일 정착 관리를 가장 먼저 강화하겠습니다.</span></li>
+      <li><b>운영 방식</b><span>주 1회 미팅에서 이슈 · 판단 · 결정 필요 사항 · 실행 일정과 함께 <b>이번 주 완료한 일</b>을 짧게 공유하겠습니다.</span></li>
+    </ul>
+  </section>
+
+  <section id="flow">
+    <h2>한 달의 흐름</h2>
+    <p class="lead">첫 2주는 흩어진 기존 자료를 모으고 플렉스 설정을 바로잡는 데 대부분을 썼습니다. 진단·보고는 그 위에서 3주차부터 본격적으로 진행했습니다.</p>
+    <div class="weeks">
+      <div class="band">기존 자료 취합 · 플렉스 정비 (약 1~2주)</div>
+      <div class="band2">제도 정비 · 사내 채널 구축 · 1on1 진행</div>
+      <div class="wk"><div class="d">10.12 – 10.16</div><div class="w">1주차</div>
+        <ul><li class="m">입사, 인계 자료 파악</li><li>연차관리대장</li><li>시용사원 평가표</li><li>출산·육아휴직 통합 신청서</li></ul></div>
+      <div class="wk"><div class="d">10.19 – 10.23</div><div class="w">2주차</div>
+        <ul><li>처우협의 관리대장 · 오퍼</li><li>법인카드 절차 미팅</li><li class="m">1on1 면담 시작</li><li>공지 템플릿 확정</li><li>퇴직연금 비교견적</li></ul></div>
+      <div class="wk"><div class="d">10.26 – 10.30</div><div class="w">3주차</div>
+        <ul><li>연봉 평가 제도</li><li class="m">인사팀 웹사이트 첫 배포</li><li>근태·수당 지침 초안</li><li>경영진 보고 페이지</li></ul></div>
+      <div class="wk"><div class="d">11.02 – 11.06</div><div class="w">4주차</div>
+        <ul><li>신규 입사자 2명 온보딩</li><li>복리후생 · 근무 가이드 메뉴</li><li>공지 005 · 006, 사무실 이전 공지</li><li class="m">취업규칙 검토, 사이트 로그인 잠금</li></ul></div>
+      <div class="wk"><div class="d">11.09 – 11.11</div><div class="w">5주차</div>
+        <ul><li>급여 284건 이관 검증</li><li>1on1 22명 완료</li><li>지침·취업규칙 확정</li><li class="m">11/10 중간보고</li></ul></div>
+    </div>
+    <p class="note">주차 구분은 작업 기록을 기준으로 정리했습니다.</p>
+  </section>
+
+  <section id="work">
+    <h2><span class="k">01</span>수행 업무</h2>
+    <p class="lead">한 달간의 일은 여섯 영역입니다. 진단·보고를 제외한 다섯 영역은 지금까지 별도로 보고드리지 않은 내용입니다.</p>
+    <div class="tw"><table>
+      <thead><tr><th>영역</th><th>핵심 산출물</th><th>회사에 주는 효과</th></tr></thead>
+      <tbody>
+        <tr><td class="nw">규정·제도</td><td>근태관리지침·수당운영지침 제정, 취업규칙 검토·수정(11/26 시행), 팀 업무추진비(12/1), 복리후생 기준, 퇴직연금 도입 준비</td><td>연장근로수당·포괄임금 등 임금체불 리스크 차단</td></tr>
+        <tr><td class="nw">데이터·시스템</td><td>엑셀 관리대장·양식 8종, 플렉스 재설정, 1~10월 급여 284건 이관 검증</td><td>인사 숫자의 단일 원천 확보</td></tr>
+        <tr><td class="nw">사내 인프라</td><td>인사팀 웹사이트(메뉴 9개, 회사 메일 로그인), 경영진 대시보드, 슬랙 온보딩 워크플로</td><td>기준을 한 곳에서 확인, 문의·혼선 감소</td></tr>
+        <tr><td class="nw">공지·운영</td><td>공지 표준 템플릿, 인사팀 공지 7건, 오프보딩·지출 절차, 사무실 이전</td><td>구두 기준을 문서로 고지·증빙</td></tr>
+        <tr><td class="nw">채용·온보딩</td><td>입사 확정 5명 처우 산정, 시용 평가 운영, 입사 서류 절차 개선</td><td>채용 업무 이관 기반</td></tr>
+        <tr><td class="nw">진단·보고</td><td>퇴사자 분석(12개월 26명), 1on1 22명, 30일차 중간보고</td><td>이탈 원인 파악</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="opinion">
+    <h2><span class="k">02</span>인사팀장 의견</h2>
+    <div class="op">
+      <div class="h">가장 잘했다고<br>생각하는 점</div>
+      <div><p>문제를 보여드리는 데서 멈추지 않고, <b>고칠 수 있는 수단을 함께 만든 점</b>입니다. 퇴사 데이터와 면담을 연결해 이탈 원인을 구조로 보여드렸고, 동시에 법적 리스크가 큰 근태·수당 기준은 11/26 시행으로 먼저 정리했습니다.</p>
+      <p>진단이 문제를 보여주었다면, 지침·관리대장·웹사이트는 그 문제를 고칠 도구입니다.</p></div>
+    </div>
+    <div class="op">
+      <div class="h">가장 아쉬운 점</div>
+      <ol>
+        <li><b>한 번에 몰아서 보고한 점.</b> 한 달치 진단을 하루에 드려 소화와 판단에 부담을 드렸습니다. 중간중간 나눠 공유했어야 했습니다.</li>
+        <li><b>추천안이 선명하지 않았던 점.</b> 선택지를 고르게 보여드리는 데 집중해, 제가 무엇을 가장 먼저 해야 한다고 보는지는 약하게 전달됐습니다.</li>
+        <li><b>기반 작업을 보고하지 않은 점.</b> 지침·취업규칙·플렉스·관리대장·웹사이트 작업을 결과물로 공유드린 적이 없어, 한 달의 일이 진단 보고서 하나로만 보였을 것입니다.</li>
+      </ol>
+    </div>
+    <div class="op">
+      <div class="h">어려웠던 점</div>
+      <ul>
+        <li>플렉스 설정(연차 자동소멸, 급여 항목 등)과 기존 자료가 실제 운영과 맞지 않아, 분석 전에 데이터를 바로잡는 데 <b>1~2주</b>가 필요했습니다.</li>
+        <li>인계 원칙은 "30일 안에는 제도 설계를 하지 않는다"였지만, 11/26 사무실 이전과 근태 관행의 법적 리스크 때문에 근태·수당 기준은 미룰 수 없었습니다. 새 제도를 설계했다기보다 리스크를 먼저 막은 것입니다.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="focus">
+    <h2><span class="k">03</span>가장 강화할 인사업무</h2>
+    <div class="rec"><b>최종 추천: 채용과 입사 후 90일 정착 관리</b><br>최근 12개월 퇴사 26명 중 10명이 입사 90일 안에 나갔고, 같은 기간 입사자 33명 중 16명이 이미 떠났습니다. 채용 비용이 가장 크게 새고 있는 곳입니다.</div>
+    <div class="tw"><table>
+      <thead><tr><th>판단</th><th>영역</th><th>이유</th></tr></thead>
+      <tbody>
+        <tr><td><span class="chip c-ok">지금 수용</span></td><td class="nw">채용·온보딩·수습 관리</td><td>이탈이 가장 많은 구간이고, 비용 없이 인사팀이 바로 실행할 수 있음</td></tr>
+        <tr><td><span class="chip c-warn">보류</span></td><td class="nw">평가·보상 제도 설계</td><td>필요하지만 퇴사율이 안정되기 전 도입하면 역효과 우려. 2027년 상반기 착수 제안</td></tr>
+        <tr><td><span class="chip c-mute">지금은 하지 않음</span></td><td class="nw">신규 복지 확대</td><td>구성원이 원하는 것은 새 혜택보다 이미 말한 것의 확정. 확정 공지만 먼저 진행</td></tr>
+      </tbody>
+    </table></div>
+    <p class="lead">11/16 입사자부터 90일 정착 관리(입사 전 준비, 수습 목표 서면 안내, 1주·1개월·2개월 체크인)를 시작하고, 3개월 뒤 같은 기준으로 정착률을 다시 보고드리겠습니다.</p>
+  </section>
+
+  <section id="way">
+    <h2><span class="k">04</span>운영 방식 제안</h2>
+    <p class="lead">대표님 피드백에 따라 주 1회 대면 미팅으로 나눠 논의하겠습니다. 매주 아래 다섯 가지를 1장으로 정리하겠습니다.</p>
+    <ol class="steps">
+      <li>이번 주 새로 확인된 이슈 (3건 이내)</li>
+      <li>인사팀장 판단: 안건별 수용·보류·미시행과 이유, 최종 추천 1개</li>
+      <li>경영진 결정이 필요한 사항</li>
+      <li>결정 후 실행 내용과 일정</li>
+      <li class="new">이번 주 완료한 일 (한 줄씩)</li>
+    </ol>
+    <h3>함께 정렬이 필요한 사항</h3>
+    <div class="tw"><table><tbody>
+      <tr><td class="nw">결정 권한의 범위</td><td>인사팀장이 단독으로 결정하고 사후 공유할 일과, 사전 승인이 필요한 일의 경계를 정하면 실행 속도가 빨라집니다.</td></tr>
+      <tr><td class="nw">주간 미팅 일정</td><td>요일과 시간을 고정해 주시면 안건을 그에 맞춰 준비하겠습니다.</td></tr>
+    </tbody></table></div>
+  </section>
+
+
+
   <footer>
     <span>주식회사 언커먼홈 · 나르카 인사팀</span>
-    <span>대외비 · 대표이사·COO 한정 열람</span>
+    <span>대외비 · 대표이사 보고용</span>
   </footer>
 </div>
 
@@ -426,6 +431,8 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--border);font-
     links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur)});
   }
   window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  var ob=document.getElementById('openAll'), ds=[].slice.call(document.querySelectorAll('#appendix details'));
+  ob.addEventListener('click',function(){var open=ds.some(function(d){return !d.open}); ds.forEach(function(d){d.open=open}); ob.textContent=open?'모두 접기':'모두 펼치기';});
 })();
 </script>
 </body>
