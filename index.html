@@ -27,7 +27,7 @@
   --ok:#4CC79A; --ok-soft:#16261F; --warn:#F2B54A; --warn-soft:#2C2416; --mute-soft:#232321; color-scheme:dark}
 
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:var(--kr);font-size:15.5px;line-height:1.7;letter-spacing:-.01em;-webkit-font-smoothing:antialiased;
+body{background:var(--bg);color:var(--text);font-family:var(--kr);word-break:keep-all;overflow-wrap:break-word;font-size:15.5px;line-height:1.7;letter-spacing:-.01em;-webkit-font-smoothing:antialiased;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .wrap{max-width:880px;margin:0 auto;padding-block:56px 80px}
 .num{font-family:var(--en);font-variant-numeric:tabular-nums}
@@ -61,7 +61,7 @@ h3{font-size:16.5px;font-weight:600;margin-top:28px}
 /* preface */
 .preface{margin-top:40px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:28px 32px}
 .preface .lbl{font-size:12.5px;color:var(--primary);font-weight:600;letter-spacing:.02em}
-.preface p{margin-top:12px;max-width:66ch}
+.preface p{margin-top:12px;max-width:62ch;text-wrap:pretty}
 .preface p:first-of-type{margin-top:10px}
 .preface .sign{margin-top:18px;color:var(--text-2);font-size:14px}
 
@@ -178,10 +178,10 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--border);font-
 
   <div class="preface" id="preface">
     <p class="lbl">보고에 앞서</p>
-    <p>지난 11/10 중간보고에 대한 리뷰와 피드백은 감사히, 그리고 무겁게 받았습니다. 앞으로 주간 미팅에서 판단과 추천안을 더 선명하게 드리겠습니다.</p>
-    <p>다만 한 가지는 함께 공유드리고 싶습니다. 중간보고는 요청받은 <b>세 가지 항목(퇴사자 분석 · 1on1 결과 · 복리후생)</b>에 우선 맞춰 준비한 자료였습니다. 대표님이 원하시는 보고 방식과 니즈를 아직 알지 못한 상태였고, 그 보고 준비에 한 달의 리소스를 모두 쓴 것도 아니었습니다.</p>
-    <p>같은 기간 동안 인사가 일할 수 있는 바탕, 즉 규정·데이터·시스템·소통 채널을 처음부터 세우는 데 더 많은 시간을 썼습니다. 이 부분은 지금까지 따로 보고드리지 않아 잘 보이지 않았을 것입니다. 이 문서는 그 한 달의 역할과 수행을 함께 봐 주셨으면 하는 마음으로 정리했습니다.</p>
-    <p class="sign">인사팀장 유하람</p>
+    <p>지난 11월 10일 중간보고에 대해 귀한 시간을 내어 상세한 리뷰와 피드백을 주셔서 진심으로 감사드립니다. 주신 말씀은 무겁게 받아들이고 있으며, 앞으로 주간 미팅에서 저의 판단과 추천안을 보다 선명하게 말씀드리겠습니다.</p>
+    <p>다만 이해를 돕고자 한 가지 말씀을 덧붙이고자 합니다. 이번 중간보고는 요청해 주신 <b>세 가지 항목(퇴사자 분석 · 1on1 결과 · 복리후생)</b>을 우선하여 준비한 자료였습니다. 당시에는 대표님께서 선호하시는 보고 방식과 필요로 하시는 내용을 충분히 파악하지 못한 상태였고, 한 달의 시간을 해당 보고 준비에만 온전히 쓰지는 못하였습니다.</p>
+    <p>같은 기간 저는 인사 업무가 원활히 운영될 수 있도록 규정, 데이터, 시스템, 소통 채널을 갖추는 일에 더 많은 시간을 들였습니다. 이 부분은 그동안 별도로 보고드리지 못해 충분히 전달되지 않았을 것으로 생각합니다. 부족한 점은 앞으로 보완해 나가겠으며, 지난 한 달간의 역할과 노력도 함께 살펴봐 주시면 감사하겠습니다.</p>
+    <p class="sign">인사팀장 유하람 드림</p>
   </div>
 
   <section id="summary">
